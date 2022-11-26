@@ -39,8 +39,8 @@ export const Sidebar = ({ drawerWidth = 240 }: Props) => {
 
           <Divider></Divider>
           <List>
-            {["Enero", "Marzo", "Feb", "Abril"].map((text) => (
-              <ListItem key="text" disablePadding>
+            {["Enero", "Marzo", "Febrero", "Abrilisimo"].map((text) => (
+              <ListItem key={text} disablePadding>
                 <ListItemButton>
                   <ListItemIcon>
                     <TurnedInNot></TurnedInNot>
