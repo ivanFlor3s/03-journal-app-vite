@@ -15,7 +15,7 @@ export const JournalLayout = ({ children }: Props) => {
       {/* SIDEBAR */}
       <Sidebar drawerWidth={drawerWidth}></Sidebar>
 
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+      <Box component="main" sx={{ flexGrow: 1, p: 2 }}>
         <Toolbar/>
         {children}
       </Box>
